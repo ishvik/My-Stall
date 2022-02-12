@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+*{
+    box-sizing: border-box;
+    top:0;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    position: sticky;
+    z-index: 1000;
+    width: 100%;
+}
+
+.top-heading{
+    width: 100%;
+    height: 10vh;
+    color: white;
+    background-color: black;
+    font-family: 'Bungee Inline', cursive;
+    font-variant: small-caps;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.heading{
+    position: fixed;
+}
+
+.heading:hover{
+    cursor: pointer;
+}
+
+.account,.cart{
+    font-size: 3rem;
+    color: gray;
+}
+
+.account:hover,.cart:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.account{
+    margin-left: 70%;
+}
+
+.cart{
+    margin-left: 5rem;
+}
+
+.navbar{
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(26,26,26);
+    box-shadow: gray 5px 2px 2px;
+    display: grid;
+    padding-top: 1rem;
+}
+
+.navbar-links{
+    grid-column: 2/4;
+    text-decoration: none;
+    list-style: none;
+    justify-content: center;
+    color: white;
+    
+}
+
+.navbar-links ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 1.4rem;
+    
+}
+
+li a{
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+}
+
+li a:hover{
+    color: yellow;
+}
+
+.search_bar{
+    grid-column: 4/5;
+    display: flex;
+}
+
+.search_bar input{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background-color: rgb(43,43,43);
+    padding-left: 1rem;
+    margin-left: 15%;
+    color: white;
+}
+
+.search_icon{
+    font-size: 1.5rem;
+    color: yellow;
+    background-color: rgb(43,43,43);
+    height: 2rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    .top-heading{
+        height: 10vh;
+        width: 100%;
+    }
+
+    .heading{
+        width: 60%;
+        margin-right: 50%;
+        font-size: 1.5rem;
+    }
+
+    .account,.cart{
+        display: none;
+    }
+
+    .hamburger-menu{
+        height: 100%;
+        width: 40%;
+        margin-left: 70%;
+        padding-top: 2rem;
+        display: inline;
+    }
+
+    .hamburger-menu:hover{
+        cursor: pointer;
+        color: yellow;
+    }
+
+    .navbar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .heading{
+        font-size: 1rem;
+    }
+
+    .hamburger-menu:hover{
+        cursor: pointer;
+        color: yellow;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .heading{
+        margin-right: 40%;
+    }
+
+    .hamburger-menu:hover{
+        cursor: pointer;
+        color: yellow;
+    }
+}

@@ -1,0 +1,95 @@
+.product-outer{
+    width: 20vw;
+    height: 52vh;
+    box-shadow: 4px 4px 10px 4px #505050;
+}
+
+.product-image{
+    width: 100%;
+    height: 65%;
+    
+}
+
+.product-price{
+    width: 100%;
+    height: 8%;
+    font-family: fantasy;
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 4%;
+    background-color: #707070;
+    color: white;
+}
+
+.product-descrip{
+    width: 100%;
+    height: 15%;
+    
+}
+
+.product-name{
+    width: 100%;
+    height: 40%;
+    text-align: left;
+    padding-left: 4%;
+    font-size: 1.5rem;
+    background-color: #707070;
+}
+
+.product-name h3{
+    background-color: #707070;
+}
+
+.product-about{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    font-size: 1rem;
+    padding-top: 1%;
+    padding-left: 4%;
+    background-color: #707070;
+}
+
+.product-about p{
+    background-color: #707070;
+}
+
+.product-buttons{
+    width: 100%;
+    height: 12%;
+}
+
+.btn-wishlist{
+    width: 40%;
+    height: 100%;
+    border: 2px solid yellow;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-cart{
+    height: 100%;
+    width: 60%;
+    background-color: black;
+    color: yellow;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+
+.product-image-src{
+    width: 100%;
+    height: 100%;
+}
+
+.product-image-src:hover{
+    cursor: pointer;
+}
+
+.btn-wishlist:hover,.btn-cart:hover{
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+}

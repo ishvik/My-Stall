@@ -1,0 +1,130 @@
+.signup-modal-outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75); 
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: 44444;
+}
+
+.signup-modal{
+    height: 50vh;
+    width: 25vw;
+    background-color: black;
+    padding-top: 1%;
+    animation: slide-down 300ms ease-out forwards;
+    
+}
+
+.signup-name,.signup-email,.signup-password{
+    width: 70%;
+    border: 2px solid black;
+    border-bottom: 1px solid yellow;
+    height: 10%;
+    padding-top: 2%;
+    text-align: left;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+
+.signup-btn{
+    width: 50%;
+    height: 10%;
+    margin-top: 7%;
+}
+
+.signup-btn button{
+    width: 90%;
+    height: 90%;
+    border-radius: 50px;
+    outline: none;
+    font-size: 1.5rem;
+    border: none;
+    font-weight: bold;
+    background-color: yellow;
+    margin-left: 50%;
+}
+
+.signup-btn button:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.signup-name input,.signup-email input,.signup-password input{
+    width: 80%;
+    height: 80%;
+    font-size: 1.3rem;
+    padding-left: 2%;
+    border: none;
+    background-color: black;
+    outline: none;
+    color: gray;
+}
+
+.signup-name label,.signup-email label,.signup-password label{
+    font-size: 1.5rem;
+    color: gray;
+}
+
+.other-options{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    height: 10%;
+    font-size: 2rem;
+    justify-content: center;
+}
+
+.github{
+    color: gray;
+    margin-left: 10%;
+}
+
+.google:hover{
+    cursor: pointer;
+}
+
+.github:hover{
+    cursor: pointer;
+}
+
+.close{
+    color: yellow;
+    text-align: right;
+    padding-right: 5%;
+    font-size: 1.5rem;
+}
+
+.for-login{
+    color: white;
+    display: flex;
+    margin-top: 5%;
+}
+
+.for-login h3{
+    margin-left: 2%;
+    color: gray;
+}
+
+.link{
+    text-decoration: none;
+    color: yellow;
+    margin-left: 2%;
+}
+
+.link:hover{
+    cursor: pointer;
+}
+
+@keyframes slide-down {
+    from {
+      opacity: 0;
+      transform: translateY(-3rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

@@ -1,0 +1,126 @@
+.footer{
+    height: 25vh;
+    width: 100%;
+    background-color: rgb(43,43,43);
+    display: flex;
+}
+
+.about_us{
+    height: 100%;
+    width: 60%;
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+.head{
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    text-align: left;
+}
+
+.aboutus_para{
+    color: gray;
+    font-size: 1.3rem;
+    text-align: left;
+    margin-top: 2%;
+}
+
+.underline{
+    height: 1%;
+    width: 15%;
+    background-color: yellow;
+}
+
+.contact_links{
+    width: 35%;
+    height: 30%;
+    /* border: 2px solid red; */
+    padding-top: 1.5%;
+    text-align: left;
+}
+
+.contact_ul{
+    list-style: none;
+    /* display: flex; */
+}
+
+.contact_li a{
+    font-size: 2rem;
+    color: gray;
+    margin-left: 5%;
+}
+
+.contact_li a:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+@media screen and (max-width: 768px){
+
+    .footer{
+        height: 20vh;
+        width: 100vw;
+        background-color: rgb(43,43,43);
+        margin-top: auto;
+        display: flex;
+    }
+
+    .aboutus_para{
+        font-size: 1rem;
+    }
+
+    .contact_li a{
+        font-size: 1.5rem;
+    }
+}
+
+/* @media screen and (min-width: 320px ){
+    .about_us{
+        display: none;
+    }
+
+    .quick_links{
+        height: 100%;
+        width: 100%;
+        border: 2px solid red;
+    }
+} */
+
+.quick_links{
+    height: 100%;
+    width: 40%;
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+.underline_quick{
+    height: 1%;
+    width: 30%;
+    background-color: yellow;
+}
+
+.quick_links_name{
+    text-align: left;
+    height: 60%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+.quick_links_ul{
+    list-style: none;
+    
+}
+
+.quick_links_ul li{
+    margin-top: 1%;
+}
+
+.quick_links_ul li a{
+    color: gray;
+}
+
+.quick_links_ul li a:hover{
+    cursor: pointer;
+    color: yellow;
+}

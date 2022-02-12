@@ -1,0 +1,159 @@
+.home{
+    width: 100%;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    background-color: gray;
+}
+
+.image_slider{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    width: 80vw;
+    position: relative;
+}
+
+.left_btn,.right_btn{
+    height: 100%;
+    width: 10%;
+    z-index: 999;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_btn button,.right_btn button{
+    outline: none;
+    border: none;
+    background: none;
+    font-size: 3rem;
+    width: 40%;
+    height: 10%;
+}
+
+.left_btn,.left_btn button{
+    margin-right: auto;
+}
+
+.right_btn,.right_btn button{
+    margin-left: auto;
+}
+
+.all_images{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.images{
+    height: 100%;
+    width: 100%;
+}
+
+.moreItems{
+    height: 32vh;
+    background-color: white;
+    width: 89.5%;
+    margin-top: 2%;
+    text-align: left;
+}
+
+.moreItems h2{
+    height: 12%;
+    width: 100%;
+    padding-left: 2%;
+    padding-top: 0.5%;
+}
+
+.moreItems-images{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.moreItems-images li{
+    height: 100%;
+}
+
+.moreItems-images li:hover{
+    cursor: pointer;
+}
+
+.moreItems-images li img{
+    height: 100%;
+    width: 100%;
+}
+
+.imageContent{
+    width: 89.5%;
+    height: 55vh;
+    background-color: gray;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageContent-block-1{
+    height: 100%;
+    width: 33%;
+    background-color: white;
+}
+
+.imageContent-block-2{
+    height: 100%;
+    width: 33%;
+    background-color: white;
+}
+
+.imageContent-block-2-1{
+    height: 50%;
+    width: 100%;
+    background-color: pink;
+}
+
+.imageContent-block-2-main{
+    height: 50%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageContent-block-2-2,.imageContent-block-2-3{
+    height: 100%;
+    width: 49%;
+    background-color: black;
+    border-top: 5px solid gray;
+}
+
+.imageContent-block-3{
+    height: 100%;
+    width: 33%;
+    background-color: white;
+}
+
+.imageContent-block-3-1{
+    height: 50%;
+    width: 100%;
+    background-color: peru;
+}
+
+.imageContent-block-3-2{
+    height: 50%;
+    width: 100%;
+    background-color: peru;
+    border-top: 5px solid gray;
+}
+
+.imageContent img{
+    width: 100%;
+    height: 100%;
+}
+
+.imageContent:hover{
+    cursor: pointer;
+}
